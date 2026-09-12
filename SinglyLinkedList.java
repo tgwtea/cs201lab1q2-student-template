@@ -99,7 +99,7 @@ public class SinglyLinkedList<E> {
         return answer;
     }
 
-    public void reverse(){
+    public void reverse(){       
         Node<E> previous = null;
         Node<E> current = head;
 
